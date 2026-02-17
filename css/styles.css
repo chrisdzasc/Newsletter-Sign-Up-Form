@@ -90,3 +90,40 @@ h1, h2, h3, h4, h5, h6 {
 html {
   font-size: 62.5%;
 }
+
+/*  =================================================
+    Typography Utilities
+    =================================================   */
+.text--p1 {
+  font-family: Roboto, sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .text--p1 {
+    font-size: 5.6rem;
+  }
+}
+
+.text--p2-bold {
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.text--p2-regular {
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.text--p3 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
