@@ -144,3 +144,13 @@ html {
 body {
   background-color: var(--blue-700);
 }
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-500);
+
+  background-color: var(--white);
+
+}
