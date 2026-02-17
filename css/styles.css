@@ -25,6 +25,16 @@
   --blue-800: hsl(234, 29%, 20%);
 
   --gradient-hover: linear-gradient(to right, hsl(15,100%, 61%), hsl(346, 100%, 66%));
+
+  --spacing-100:  0.8rem;
+  --spacing-200:  1.6rem;
+  --spacing-300:  2.4rem;
+  --spacing-400:  3.2rem;
+  --spacing-500:  4.0rem;
+  --spacing-600:  4.8rem;
+  --spacing-800:  6.4rem;
+  --spacing-900:  7.2rem;
+  --spacing-1300: 10.4rem;
 }
 
 /*  =================================================
