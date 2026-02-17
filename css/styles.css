@@ -152,7 +152,7 @@ body {
   gap: var(--spacing-500);
 
   background-color: var(--white);
-
+  color: var(--blue-800);
 }
 
 .newsletter__image {
