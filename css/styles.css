@@ -164,6 +164,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-500);
+  width: 87%;
 }
 
 .newsletter__info {
