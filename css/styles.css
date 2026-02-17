@@ -159,3 +159,9 @@ body {
   width: 100%;
   display: block;
 }
+
+.newsletter__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-500);
+}
