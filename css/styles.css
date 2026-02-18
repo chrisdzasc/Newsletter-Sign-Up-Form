@@ -247,7 +247,7 @@ body {
 
   .newsletter {
     padding: var(--spacing-500);
-    margin: 0 auto;
+    margin: var(--spacing-500) auto;
     width: 80%;
     max-width: 61.4rem;
     border-radius: 3.6rem;
