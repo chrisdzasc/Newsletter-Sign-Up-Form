@@ -172,3 +172,23 @@ body {
   flex-direction: column;
   gap: var(--spacing-300);
 }
+
+.newsletter__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-100);
+  padding: 0;
+  list-style: none;
+}
+
+.newsletter__list-item {
+  display: flex;
+  gap: var(--spacing-200);
+  align-items: flex-start;
+}
+
+.newsletter__list-icon {
+  width: 2.1rem;
+  height: 2.1rem;
+  flex-shrink: 0;
+}
