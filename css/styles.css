@@ -227,6 +227,11 @@ body {
   border-color: var(--blue-800);
 }
 
+.newsletter__picture {
+  display: block;
+  width: 100%;
+}
+
 /*  =================================================
     Tablet Styles
     =================================================   */
