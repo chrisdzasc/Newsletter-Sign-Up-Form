@@ -256,4 +256,12 @@ body {
     gap: var(--spacing-300);
     width: 100%;
   }
+
+  .newsletter__form {
+    gap: var(--spacing-200);
+  }
+
+  .newsletter__form-button {
+    padding: var(--spacing-200) 14.4rem;
+  }
 }
