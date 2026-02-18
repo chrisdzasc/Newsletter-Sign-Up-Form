@@ -226,3 +226,24 @@ body {
   outline: none;
   border-color: var(--blue-800);
 }
+
+/*  =================================================
+    Tablet Styles
+    =================================================   */
+
+@media (min-width: 768px) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .newsletter {
+    padding: var(--spacing-500);
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 3.6rem;
+  }
+}
