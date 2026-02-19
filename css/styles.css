@@ -146,7 +146,7 @@ body {
 }
 
 .newsletter {
-  display: flex;
+  display: none; /* Temporary Hidden */
   flex-direction: column;
   align-items: center;
   gap: var(--spacing-500);
@@ -236,6 +236,8 @@ body {
   display: block;
   width: 100%;
 }
+
+
 
 /*  =================================================
     Tablet Styles
