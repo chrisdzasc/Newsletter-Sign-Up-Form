@@ -141,9 +141,6 @@ html {
 /*  =================================================
     Base Styles
     =================================================   */
-body {
-  background-color: var(--blue-700);
-}
 
 .newsletter {
   display: none; /* Temporary Hidden */
@@ -237,8 +234,6 @@ body {
   width: 100%;
 }
 
-
-
 /*  =================================================
     Tablet Styles
     =================================================   */
@@ -250,6 +245,7 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    background-color: var(--blue-700);
   }
 
   .newsletter {
