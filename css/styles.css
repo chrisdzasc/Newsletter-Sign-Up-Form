@@ -277,4 +277,8 @@ body {
     padding: var(--spacing-400);
     max-width: 90.4rem;
   }
+
+  .newsletter__picture {
+    max-width: 40rem;
+  }
 }
