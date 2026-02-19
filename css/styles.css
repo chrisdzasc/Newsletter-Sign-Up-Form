@@ -223,6 +223,10 @@ body {
   white-space: nowrap;
 }
 
+.newsletter__form-button:hover {
+  background: var(--gradient-hover);
+}
+
 .newsletter__form-button:focus {
   outline: none;
   border-color: var(--blue-800);
@@ -298,6 +302,5 @@ body {
 
   .newsletter__form-button {
     padding: var(--spacing-200) var(--spacing-900);
-    
   }
 }
