@@ -286,4 +286,8 @@ body {
     gap: var(--spacing-400);
     max-width: 37.6rem;
   }
+
+  .newsletter__info {
+    gap: var(--spacing-400);
+  }
 }
