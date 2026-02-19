@@ -266,3 +266,15 @@ body {
     padding: var(--spacing-200) 14.4rem;
   }
 }
+
+/*  =================================================
+    Desktop Styles
+    =================================================   */
+@media (min-width: 1440px) {
+  .newsletter {
+    flex-direction: row-reverse;
+    gap: var(--spacing-800);
+    padding: var(--spacing-400);
+    max-width: 90.4rem;
+  }
+}
