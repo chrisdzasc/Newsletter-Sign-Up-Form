@@ -220,6 +220,7 @@ body {
   border: none;
   border-radius: var(--spacing-100);
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .newsletter__form-button:focus {
@@ -289,5 +290,14 @@ body {
 
   .newsletter__info {
     gap: var(--spacing-400);
+  }
+
+  .newsletter__form {
+    gap: var(--spacing-300);
+  }
+
+  .newsletter__form-button {
+    padding: var(--spacing-200) var(--spacing-900);
+    
   }
 }
