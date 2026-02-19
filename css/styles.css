@@ -281,4 +281,9 @@ body {
   .newsletter__picture {
     max-width: 40rem;
   }
+
+  .newsletter__content {
+    gap: var(--spacing-400);
+    max-width: 37.6rem;
+  }
 }
