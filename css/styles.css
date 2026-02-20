@@ -251,6 +251,14 @@ body {
   margin: 0 auto;
 }
 
+.success-card__message {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+
+  color: var(--blue-800);
+}
+
 /*  =================================================
     Tablet Styles
     =================================================   */
