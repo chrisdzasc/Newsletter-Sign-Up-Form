@@ -142,6 +142,13 @@ html {
     Base Styles
     =================================================   */
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .newsletter {
   display: none; /* Temporary Hidden */
   flex-direction: column;
@@ -232,6 +239,16 @@ html {
 .newsletter__picture {
   display: block;
   width: 100%;
+}
+
+.success-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-800);
+  background-color: var(--white);
+  width: 78%;
+  max-width: 50.4rem;
+  margin: 0 auto;
 }
 
 /*  =================================================
