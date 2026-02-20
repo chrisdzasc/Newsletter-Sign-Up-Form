@@ -277,8 +277,6 @@ body {
   background: var(--gradient-hover);
 }
 
-
-
 /*  =================================================
     Tablet Styles
     =================================================   */
@@ -312,6 +310,12 @@ body {
 
   .newsletter__form-button {
     padding: var(--spacing-200) 14.4rem;
+  }
+
+  .success-card {
+    gap: var(--spacing-400);
+    padding: var(--spacing-800);
+    border-radius: 3.6rem;
   }
 }
 
