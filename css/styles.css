@@ -264,6 +264,21 @@ body {
   height: 6.4rem;
 }
 
+.success-card__button {
+  padding: var(--spacing-200) var(--spacing-500);
+  background-color: var(--blue-800);
+  color: var(--white);
+  border-radius: var(--spacing-100);
+  border: none;
+  cursor: pointer;
+}
+
+.success-card__button:hover {
+  background: var(--gradient-hover);
+}
+
+
+
 /*  =================================================
     Tablet Styles
     =================================================   */
