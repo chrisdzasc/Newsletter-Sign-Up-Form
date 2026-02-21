@@ -1,11 +1,10 @@
-// Select the email input
+const newsletter = document.querySelector(".newsletter");
 const email = document.querySelector("#email");
-
-// Select the submit button
+const labelEmail = document.querySelector(".newsletter__form-label");
 const btnSubmit = document.querySelector(".newsletter__form-button");
 
-// Select the email address text
-const labelEmail = document.querySelector(".newsletter__form-label");
+const successCard = document.querySelector(".success-card");
+const btnSuccess = document.querySelector(".success-card__button");
 
 btnSubmit.addEventListener("click", (e) => {
     e.preventDefault();
@@ -13,7 +12,12 @@ btnSubmit.addEventListener("click", (e) => {
     const regex = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
 
     if(regex.test(email.value)) {
-        console.log(email.value);
+        const emailSuccess = document.querySelector(".success-card__email");
+
+        newsletter.style.display = "none";
+        successCard.style.display = "flex";
+
+        emailSuccess.textContent = `${email.value}`;
     } else {
 
         const errorAlert = document.querySelector(".error-alert");
@@ -35,4 +39,14 @@ btnSubmit.addEventListener("click", (e) => {
             }, 2000);
         }
     }
+});
+
+btnSuccess.addEventListener("click", (e) => {
+
+    e.preventDefault(); 
+
+    newsletter.style.display = "flex";
+    successCard.style.display = "none";
+
+    email.value = "";
 });

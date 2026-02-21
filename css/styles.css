@@ -2,14 +2,14 @@
     Custom Fonts
     =================================================   */
 @font-face {
-    font-family: Roboto;
-    src: url(../assets/fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: Roboto;
-    src: url(../assets/fonts/Roboto-Bold.ttf);
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: 700;
 }
 
@@ -143,6 +143,7 @@ html {
     =================================================   */
 
 body {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -158,6 +159,8 @@ body {
   background-color: var(--white);
   color: var(--blue-800);
   padding-bottom: var(--spacing-500);
+
+  animation: fadeAndSlideUp 0.5s ease-out forwards;
 }
 
 .newsletter__image {
@@ -259,6 +262,8 @@ body {
   width: 78%;
   max-width: 50.4rem;
   margin: 0 auto;
+
+  animation: fadeAndSlideUp 0.5s ease-out forwards;
 }
 
 .success-card__message {
@@ -287,6 +292,20 @@ body {
   background: var(--gradient-hover);
 }
 
+.hidden {
+  display: none;
+}
+
+@keyframes fadeAndSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /*  =================================================
     Tablet Styles
     =================================================   */
